@@ -27,11 +27,11 @@
         public function StreamView() {
 
             defaults = {
-                driver  : 'tweetOff.streamDriver',
+                driver  : '',
                 streamName  : "test_" + new Date().valueOf(),
                 protocol: 'rtmp',
-                host    : 'ec2-184-72-155-173.compute-1.amazonaws.com',
-                app     : 'anything_you_can_tweet',
+                host    : '',
+                app     : 'default',
                 showInfo: true,
                 padding : 0,
                 display : {

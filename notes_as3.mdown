@@ -1,0 +1,3 @@
+var foo:Object = {} literals cannot be declared in class property definitions. They must be set during instantiation.
+function doStuff( foo={} ) does not work. Literals cannot be declared as default paramaters.
+
